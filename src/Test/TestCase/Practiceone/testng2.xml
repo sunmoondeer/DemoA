@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng2">
+	<test name="test">
+		<classes>
+			<class name="Test.TestCase.Practiceone.Practice1OnTestng">
+				<methods>
+					<include name="test1"/>				
+				</methods>
+			</class>
+			<class name="Test.TestCase.Practiceone.Practice2OnTestng">
+				<methods>
+					<include name="tset3"/>
+				</methods>
+			</class>	
+		</classes>	
+	</test>
+</suite>

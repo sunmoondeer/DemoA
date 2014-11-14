@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [webdriver]">
+  <parameter name="locator" value="/tools/Locator.properties"/>
+  <parameter name="data" value="/tools/test.properties"/>
+  <test name="Practice3OnTestng(failed)">
+    <classes>
+      <class name="Test.TestCase.Practicethree.Practice3OnTestng">
+        <methods>
+          <include name="release"/>
+          <include name="contactsTest"/>
+          <include name="loginTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Test.TestCase.Practicethree.Practice3OnTestng -->
+    </classes>
+  </test> <!-- Practice3OnTestng(failed) -->
+</suite> <!-- Failed suite [webdriver] -->

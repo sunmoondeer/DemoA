@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebDriver">
+	<parameter name="TestData" value="/tools/IEDriverServer"/>
+		<test name="Practicethree">
+			<classes>
+				<class name="Test.TestCase.Practicethree.Practice1OnTestng"/>
+			</classes>
+		</test>
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="webdriver">
+	<parameter name="data" value="/tools/test.properties"/>
+	<parameter name="locator" value="/tools/Locator.properties"/>
+		<test name="Practice3OnTestng">
+			<classes>
+				<class name="Test.TestCase.Practicethree.Practice3OnTestng"/>
+			</classes>
+		</test>
+
+</suite>
